@@ -26,5 +26,3 @@ if result1 == "6":
     elif result2 == "2" or result2 == "3" or result2 == "4" or result2 == "5" :
         print("Invalid Option.Please Try again")
 
-else:
-    print("Invalid Option. Please try again.")

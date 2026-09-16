@@ -19,12 +19,17 @@ if result1 == "6":
     result2 = input("Please select an option (1-5): ")
     if result2 == "1":
         pin = input("Please enter your momo pin:")
-        if pin == "2345":
+        if int(pin) == 2345:
             print(f"Your balance is ₵{balance:.2f}")
         else:
             print("Incorrect pin. Please try again.")
-    elif result2 == "2" or result2 == "3" or result2 == "4" or result2 == "5" :
-        print("Invalid Option.Please Try again")
-
+    elif result2 == "2":
+        print("Invalid Option. Please try again.")
+    elif result2 == "3":
+        print("Invalid Option. Please try again.")
+    elif result2 == "4":
+        print("Invalid Option. Please try again.")
+    else:
+        print("Invalid option selected.")
 else:
     print("Invalid Option. Please try again.")
