@@ -1,0 +1,1 @@
+intro = """Unlock more deals and try our new momom app

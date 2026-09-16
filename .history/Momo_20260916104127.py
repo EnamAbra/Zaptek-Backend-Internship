@@ -1,0 +1,10 @@
+intro = """ Unlock more deals and try our new MoMo app!"""
+print(intro)
+print("1) Transfer Money")
+print("2) MoMoPay & Pay Bills")
+print("3)  Airtime & Bundles")
+print("4)  Allow Cashout")
+print("5)  Financial")
+print("6)  My Wallet")
+print("7)  Just4U")
+print("8)  MoMo App")
