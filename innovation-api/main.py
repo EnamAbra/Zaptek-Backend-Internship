@@ -45,11 +45,7 @@ def get_application(application_id: int):
 
     raise HTTPException(status_code=404, detail="Application not found")
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: str | None = None):
-    return {"item_id": item_id, "q": q}
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=False)
+
 
 @app.post("/applications", status_code=201)
 def create_application(application: Application):
